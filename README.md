@@ -18,3 +18,12 @@ Do **not** upload real employer exports, names, cost centers, invoices, or accou
 ```bash
 pip install -r requirements.txt
 python src/deltamaster_merge.py --topm "path/to/topm.xlsx" --addison "path/to/addison.xlsx" --out "outputs/Ergebnis_final_strukturiert.xlsx"
+
+
+## Colab demo notebook
+A ready-to-run Google Colab notebook is included in the repository root:
+
+- `deltamaster_report_automation_demo.ipynb`
+
+It installs dependencies, clones the repo, runs the script on the synthetic sample files in `Data/Sample/`, and produces:
+- `outputs/Ergebnis_final_strukturiert.xlsx`
